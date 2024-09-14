@@ -27,6 +27,8 @@ module controller (
     output logic        csr_reg_rd
 );
 
+/* csr-file */
+
 always_comb begin
     case (opcode)
         R_TYPE : begin // R - Type 
